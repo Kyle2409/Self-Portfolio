@@ -176,7 +176,8 @@ background-position: 100% 50%}
     position: static;
     border: none;
     color: white;
-    padding: 15px 32px;
+    height: 60px;
+  width: 150px;
     text-align: left;
     text-decoration: none;
     display: inline-block;

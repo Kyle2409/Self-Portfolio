@@ -1,0 +1,209 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background: url(Images/christopher-sardegna-bSmKli4OTIY-unsplash.jpg) no-repeat 100% 100%;
+  background-size: cover;
+}
+
+.content {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  color: rgb(238, 236, 236);
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: rgb(255, 253, 253);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+@media(max-width: 786px) {
+  header {
+    width: 100%;
+    height: 120%;
+    background: url(Images/christopher-sardegna-bSmKli4OTIY-unsplash.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 1px;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: transparent;
+  }
+
+  .showing {
+        max-height: 45em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+}
+.Text-box{
+  display: inline-block;
+  bottom: 20%;
+  position: static;;
+    color: rgb(0, 0, 0);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+.Text-box p{
+  text-align: left;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.Text-box h1{
+  font-size: 100px;
+  
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  background:url(Images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+.Text-box h3{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 500px;
+  padding-left: 4px;
+}
+.row{
+  padding-left: 6px;
+}
+
+@media(max-width: 786px){
+  .Text-box{
+    display: inline-block;
+    position: static;;
+      color: rgb(0, 0, 0);
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+  }
+      .Text-box p{
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 4vw;
+        font-weight: 600;
+        display: flexbox;
+      }
+      .Text-box h1{
+        font-size: 18vw;
+      font-family: 'Courier New', Courier, monospace;
+        
+        
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        background:url(Images/back.png);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+      }
+      @keyframes back{
+        100%{
+          background-position: 2000px 0;
+        }
+      }
+      .Text-box h3{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        font-size: 6vw;
+        text-decoration-style: solid;
+        font-weight: 500px;
+      }
+      .row{
+        padding-left: 19px;
+      }
+}

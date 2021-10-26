@@ -52,7 +52,8 @@ nav ul {
 }
 
 nav.black ul {
-  background: rgb(255, 253, 253);
+  background: rgb(255, 255, 255);
+  
 }
 
 nav ul li {
@@ -63,7 +64,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 16px;
 }
 
@@ -205,7 +206,9 @@ background-position: 100% 50%}
         max-height: 54em;
         
   }
-
+.a{
+  color: white;
+}
   nav ul li {
     
         box-sizing: border-box;
@@ -314,3 +317,33 @@ background-position: 100% 50%}
         padding-left: 19px;
       }
 }
+
+
+section {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 30px;
+  min-height: 98vh;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.content main {
+  width: 100%;
+  background-color: var(--blueGray2);
+  padding: 10px;
+  box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+}
+
+.section-heading {
+  /* border-bottom: 2px solid #999; */
+ 
+  margin-bottom: 40px;
+  color: #999;
+  text-transform: uppercase;
+  font-size: large;
+}
+
+
+/* About Page */

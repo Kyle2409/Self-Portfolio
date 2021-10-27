@@ -45,15 +45,7 @@
   left: 7px;
   top: 0;
 }
-#journey  .timeline .circle-dot {
-  position: absolute;
-  left: 0;
-  top: 0px;
-  height: 15px;
-  width: 15px;
-  left: 0px;
-  border-radius: 50%;
-}
+
 #journey .timeline .timeline-date {
   font-size: 14px;
   font-weight: 400;
@@ -99,6 +91,19 @@
     }
     #journey{
       height: 100vh;
-      background: rgb(0, 238, 255);
+      background: linear-gradient(-45deg,#f5967f,#f4d293,#c1946a,#fdb4be);
+      background-size: 400% 400%;
+      animation: Gradient 15s ease infinite;
+      background-repeat: no-repeat;
       box-sizing: border-box;
+      }
+      @-webkit-keyframes Gradient{
+      0%{
+      background-position: 0% 50%
+      }
+      50%{
+      background-position: 100% 50%}
+      100%{
+        background-position: 0% 50%;
+      }
     }

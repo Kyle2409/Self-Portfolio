@@ -82,13 +82,13 @@
       margin-left: 0;
     }
   }
-  * {
+  /* * {
       margin: 0;
       padding: 0;
       outline: none;
       text-decoration: none;
       box-sizing: border-box;
-    }
+    } */
     #journey{
       height: 100vh;
       background: linear-gradient(-45deg,#f5967f,#f4d293,#c1946a,#fdb4be);

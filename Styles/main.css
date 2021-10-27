@@ -272,10 +272,12 @@ background-position: 100% 50%}
   text-align: left;
   font-size: 80px;
   font-weight: 600;
-  padding-left: 8px;
+  padding-left:8px;
 }
 
 .Text-box h1{
+  
+  text-align: center;
   font-size: 180px;
   margin-top: -50px;
   color: transparent;
@@ -298,7 +300,7 @@ background-position: 100% 50%}
 }
 .landing{
   font-family: 'Times New Roman', Times, serif;
-  padding-left: 22px;
+  padding-left: 10px;
   color: azure;
 }
 
@@ -368,6 +370,7 @@ background-position: 100% 50%}
     background-position: 0% 50%;
   }
 }
+
 .fwh-slide--bg-blue{
   
   color: white;

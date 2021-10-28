@@ -91,19 +91,8 @@
     } */
     #journey{
       height: 100vh;
-      background: linear-gradient(-45deg,#f5967f,#f4d293,#c1946a,#fdb4be);
-      background-size: 400% 400%;
-      animation: Gradient 15s ease infinite;
+      background-color:#efcb8d;
       background-repeat: no-repeat;
       box-sizing: border-box;
       }
-      @-webkit-keyframes Gradient{
-      0%{
-      background-position: 0% 50%
-      }
-      50%{
-      background-position: 100% 50%}
-      100%{
-        background-position: 0% 50%;
-      }
-    }
+  
